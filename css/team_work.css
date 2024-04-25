@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* =============================
+   =======  01_work.css  =======
+   =======  (Portfolio)  =======
+   ============================= */
+
+
+
+/* ========== Mobile(start) ========== */
+@media screen and (max-width: 767px) {
+	
+	
+	section { font-size: 0.875em; padding: 0 1.4285em; word-break: keep-all; }
+	div.top { display: flex; flex-direction: column; margin-bottom: 50px; }
+    div.top > div.title { order: 1; width: 100%; margin: 40px 0 30px; text-align: center; }
+    div.top > div.title > h1 { color: #333; font-family: "Kanit-Bold"; font-size: 2.1428em; line-height: 1; }
+    div.top > div.title > span { font-family: "Kanit-Bold"; font-size: 0.8571em; }
+    div.top > div.title > span + span { margin-left: 10px; }
+    
+    div.top > div.top_left { order: 3; }
+    div.top > div.top_left > p { word-break: keep-all; }
+    div.top > div.top_left > p + p { margin-top: 10px; }
+    div.top > div.top_left > p > span + span { margin-left: 15px; }
+    div.top > div.top_left > a { position: relative; left: 50%; transform: translateX(-50%); display: inline-block; margin-top: 30px; padding: 0.3125em 1.875em; border: 1px solid #000; font-family: "Kanit-Medium"; font-size: 1.1428em; transition: 0.2s; }
+    
+    div.top > div.top_right { order: 2; margin-bottom: 20px; }
+    div.top > div.top_right > img { display: block; width: 100%; object-fit: cover;  }
+    
+    div.bottom > h2 { font-family: "Kanit-SemiBold"; font-size: 1.7142em; margin-bottom: 1.25em; }
+    div.bottom h3 { display: inline-block; font-family: "Kanit-SemiBold"; font-size: 1.2857em; margin-bottom: 0.8333em; line-height: 1; border-bottom: 2px solid #000; }
+    div.bottom p + p { margin-top: 10px;; }
+    div.bottom > div.bottom_wrap_01 > div.strategy { margin-bottom: 40px; }
+    div.bottom > div.bottom_wrap_01 > div.fonts { margin-bottom: 40px; }
+    div.bottom > div.bottom_wrap_01 > div.fonts > p:nth-of-type(1) { font-family: "CormorantGaramond-Bold"; }
+    div.bottom > div.bottom_wrap_02 span + span { margin-left: 20px; }
+    div.bottom > div.bottom_wrap_02 > div.color {  margin-bottom: 40px; }
+    div.bottom > div.bottom_wrap_02 > div.color > h3 { margin-bottom: 50px; }
+    div.bottom > div.bottom_wrap_02 > div.color span { position: relative; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(1)::before { content: ""; position: absolute; top: -35px; left: 50%; display: block; width: 30px; height: 30px; transform: translateX(-50%); background: #fff; border: 1px solid rgba(0, 0, 0, 0.5); border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(2)::before { content: ""; position: absolute; top: -35px; left: 50%; display: block; width: 30px; height: 30px; transform: translateX(-50%); background: #333; border: 1px solid #333; border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(3)::before { content: ""; position: absolute; top: -35px; left: 50%; display: block; width: 30px; height: 30px; transform: translateX(-50%); background: #000; border: 1px solid #000; border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.key_word { padding-bottom: 40px; }
+	
+	
+}
+/* ========== Mobile(end) ========== */
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!						!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!	     01_work		!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!						!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* ========== Tablet(start) ========== */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+    section { padding: 0 1.75em; word-break: keep-all; }
+	div.top { height: 50vh; display: flex; justify-content: space-between; gap: 20px; margin-bottom: 60px; }
+    div.top > div.title { position: absolute; top: 60px; left: 50%; transform: translateX(-50%); text-align: center;}
+    div.top > div.title > h1 { color: #333; font-family: "Kanit-Bold"; font-size: 3.125em; line-height: 1; }
+    div.top > div.title > span { font-family: "Kanit-Bold"; }
+    div.top > div.title > span + span { margin-left: 10px; }
+    
+    div.top > div.top_left { flex-basis: 43%; align-self: center; margin-top: 180px }
+    div.top > div.top_left > p { font-size: 1em; }
+    div.top > div.top_left > p + p { margin-top: 20px; }
+    div.top > div.top_left > p > span + span { margin-left: 20px; }
+    div.top > div.top_left > a { position: relative; display: inline-block; margin-top: 50px; padding: 0.3888em 1.9444em; border: 1px solid #000; font-family: "Kanit-Medium"; font-size: 1.125em; transition: 0.2s; }
+    
+    div.top > div.top_right { flex-basis: 57%; align-self: center; margin-top: 180px; }
+    div.top > div.top_right > img { display: block; width: 100%; object-fit: cover; transform: translateY(5.5%); }
+    
+    div.bottom > h2 { font-family: "Kanit-SemiBold"; font-size: 2.1875em; margin-bottom: 1.7142em; }
+    div.bottom h3 { display: inline-block; font-family: "Kanit-SemiBold"; font-size: 1.5em; margin-bottom: 1.25em; line-height: 1; border-bottom: 2px solid #000; }
+    div.bottom p + p { margin-top: 10px;; }
+    div.bottom > div.bottom_wrap_01 { overflow: hidden; margin-bottom: 60px; }
+    div.bottom > div.bottom_wrap_01 > div.strategy { float: left; width: 60%; padding-right: 20px; }
+    div.bottom > div.bottom_wrap_01 > div.fonts { float: left; width: 40%; }
+    div.bottom > div.bottom_wrap_01 > div.fonts > p:nth-of-type(1) { font-family: "CormorantGaramond-Bold"; }
+    div.bottom > div.bottom_wrap_02 { overflow: hidden; }
+    div.bottom > div.bottom_wrap_02 span + span { margin-left: 20px; }
+    div.bottom > div.bottom_wrap_02 > div.color { float: left; width: 60%; margin-bottom: 60px; }
+    div.bottom > div.bottom_wrap_02 > div.color > h3 { margin-bottom: 80px; }
+    div.bottom > div.bottom_wrap_02 > div.color span { position: relative; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(1)::before { content: ""; position: absolute; top: -50px; left: 50%; display: block; width: 40px; height: 40px; transform: translateX(-50%); background: #fff; border: 1px solid rgba(0, 0, 0, 0.5); border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(2)::before { content: ""; position: absolute; top: -50px; left: 50%; display: block; width: 40px; height: 40px; transform: translateX(-50%); background: #333; border: 1px solid #333; border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(3)::before { content: ""; position: absolute; top: -50px; left: 50%; display: block; width: 40px; height: 40px; transform: translateX(-50%); background: #000; border: 1px solid #000; border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.key_word { float: right; width: 40%; }
+	
+	
+}
+/* ========== Tablet(end) ========== */
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!						!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!	     01_work		!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!						!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* ========== Desktop(start) ========== */
+@media screen and (min-width: 1025px) {
+
+    
+    .t_m { display: none; }
+
+    div.top { height: 100vh; display: flex; justify-content: space-between; margin-bottom: 30px; }
+    div.top > div.title { position: absolute; top: 100px; }
+    div.top > div.title > h1 { color: #333; font-family: "Kanit-Bold"; font-size: 4.375em; line-height: 1; }
+    div.top > div.title > span { font-family: "Kanit-Bold"; }
+    div.top > div.title > span + span { margin-left: 10px; }
+    
+    div.top > div.top_left { flex-basis: 43%; align-self: flex-end; margin-bottom: 8%; }
+    div.top > div.top_left > p { font-size: 1.125em; }
+    div.top > div.top_left > p + p { margin-top: 30px; }
+    div.top > div.top_left > p > span + span { margin-left: 20px; }
+    div.top > div.top_left > a { position: relative; display: inline-block; margin-top: 50px; padding: 0.4em 2em; border: 2px solid #000; font-family: "Kanit-Medium"; font-size: 1.25em; transition: 0.2s; }
+    div.top > div.top_left > a::before { content: ""; position: absolute; display: block; top: 0; left: 0; width: 0; height: 100%; background: #000; transition: 0.2s; z-index: -1; }
+    div.top > div.top_left > a:hover { color: #fff; }
+    div.top > div.top_left > a:hover::before { width: 100%; }
+    
+    div.top > div.top_right { flex-basis: 57%; align-self: center; }
+    div.top > div.top_right > img { display: block; width: 100%; object-fit: cover; transform: translateY(5.5%); }
+    
+    div.bottom > h2 { font-family: "Kanit-SemiBold"; font-size: 2.5em; margin-bottom: 1.5em; }
+    div.bottom h3 { display: inline-block; font-family: "Kanit-SemiBold"; font-size: 1.5em; margin-bottom: 1.25em; line-height: 1; border-bottom: 2px solid #000; }
+    div.bottom p + p { margin-top: 10px;; }
+    div.bottom > div.bottom_wrap_01 { overflow: hidden; margin-bottom: 60px; }
+    div.bottom > div.bottom_wrap_01 > div.strategy { float: left; width: 60%; }
+    div.bottom > div.bottom_wrap_01 > div.fonts { float: left; width: 40%; }
+    div.bottom > div.bottom_wrap_02 { overflow: hidden; }
+    div.bottom > div.bottom_wrap_01 > div.fonts > p:nth-of-type(1) { font-family: "CormorantGaramond-Bold"; }
+    div.bottom > div.bottom_wrap_02 span + span {margin-left: 20px;}
+    div.bottom > div.bottom_wrap_02 > div.color { float: left; width: 60%; margin-bottom: 100px; }
+    div.bottom > div.bottom_wrap_02 > div.color > h3 { margin-bottom: 80px; }
+    div.bottom > div.bottom_wrap_02 > div.color span { position: relative; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(1)::before { content: ""; position: absolute; top: -50px; left: 50%; display: block; width: 40px; height: 40px; transform: translateX(-50%); background: #fff; border: 1px solid rgba(0, 0, 0, 0.5); border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(2)::before { content: ""; position: absolute; top: -50px; left: 50%; display: block; width: 40px; height: 40px; transform: translateX(-50%); background: #333; border: 1px solid #333; border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.color span:nth-of-type(3)::before { content: ""; position: absolute; top: -50px; left: 50%; display: block; width: 40px; height: 40px; transform: translateX(-50%); background: #000; border: 1px solid #000; border-radius: 999999px; }
+    div.bottom > div.bottom_wrap_02 > div.key_word { float: right; width: 40%; }
+
+
+}
+/* ========== Desktop(end) ========== */

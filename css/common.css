@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* ============================
+   =======  common.css  =======
+   ============================ */
+
+/* ######### font-face(start) ######### */
+
+/* kanit-regular - latin */
+@font-face {
+	font-family: 'Kanit-Regular';
+	src: url('../font/kanit-v15-latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('../font/kanit-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	   url('../font/kanit-v15-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	   url('../font/kanit-v15-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+	   url('../font/kanit-v15-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+	   url('../font/kanit-v15-latin-regular.svg#Kanit') format('svg'); /* Legacy iOS */
+}
+/* kanit-500 - latin */
+@font-face {
+	font-family: 'Kanit-Medium';
+	src: url('../font/kanit-v15-latin-500.eot'); /* IE9 Compat Modes */
+	src: url('../font/kanit-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/kanit-v15-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/kanit-v15-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/kanit-v15-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/kanit-v15-latin-500.svg#Kanit') format('svg'); /* Legacy iOS */
+}
+/* kanit-600 - latin */
+@font-face {
+	font-family: 'Kanit-SemiBold';
+	src: url('../font/kanit-v15-latin-600.eot'); /* IE9 Compat Modes */
+	src: url('../font/kanit-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	   url('../font/kanit-v15-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	   url('../font/kanit-v15-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+	   url('../font/kanit-v15-latin-600.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+	   url('../font/kanit-v15-latin-600.svg#Kanit') format('svg'); /* Legacy iOS */
+}
+/* kanit-700 - latin */
+@font-face {
+	font-family: 'Kanit-Bold';
+	src: url('../font/kanit-v15-latin-700.eot'); /* IE9 Compat Modes */
+	src: url('../font/kanit-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	   url('../font/kanit-v15-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	   url('../font/kanit-v15-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+	   url('../font/kanit-v15-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+	   url('../font/kanit-v15-latin-700.svg#Kanit') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-regular - korean_latin */
+@font-face {
+	font-family: 'NotoSansKR-Regular';
+	src: url('../font/noto-sans-kr-v36-korean_latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('../font/noto-sans-kr-v36-korean_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/noto-sans-kr-v36-korean_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/noto-sans-kr-v36-korean_latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/noto-sans-kr-v36-korean_latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/noto-sans-kr-v36-korean_latin-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-500 - korean_latin */
+@font-face {
+	font-family: 'NotoSansKR-Medium';
+	src: url('../font/noto-sans-kr-v36-korean_latin-500.eot'); /* IE9 Compat Modes */
+	src: url('../font/noto-sans-kr-v36-korean_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/noto-sans-kr-v36-korean_latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/noto-sans-kr-v36-korean_latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/noto-sans-kr-v36-korean_latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/noto-sans-kr-v36-korean_latin-500.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../font/montserrat-v26-latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('../font/montserrat-v26-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/montserrat-v26-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/montserrat-v26-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/montserrat-v26-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/montserrat-v26-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* dm-sans-700 - latin */
+@font-face {
+	font-family: 'DMSans_18pt-Bold';
+	src: url('../font/dm-sans-v14-latin-700.eot'); /* IE9 Compat Modes */
+	src: url('../font/dm-sans-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/dm-sans-v14-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/dm-sans-v14-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/dm-sans-v14-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/dm-sans-v14-latin-700.svg#DMSans') format('svg'); /* Legacy iOS */
+}
+/* playfair-display-sc-regular - latin */
+@font-face {
+	font-family: 'playfair-display-sc-v15-latin-regular';
+	src: url('../font/playfair-display-sc-v15-latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('../font/playfair-display-sc-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/playfair-display-sc-v15-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/playfair-display-sc-v15-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/playfair-display-sc-v15-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/playfair-display-sc-v15-latin-regular.svg#PlayfairDisplaySC') format('svg'); /* Legacy iOS */
+}
+/* cinzel-regular - latin */
+@font-face {
+	font-family: 'Cinzel-Regular';
+	src: url('../font/cinzel-v23-latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('../font/cinzel-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/cinzel-v23-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/cinzel-v23-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/cinzel-v23-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/cinzel-v23-latin-regular.svg#Cinzel') format('svg'); /* Legacy iOS */
+}
+/* noto-serif-kr-regular - korean_latin */
+@font-face {
+	font-family: 'NotoSerifKR-Regular';
+	src: url('../font/noto-serif-kr-v20-korean_latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('../font/noto-serif-kr-v20-korean_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/noto-serif-kr-v20-korean_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/noto-serif-kr-v20-korean_latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/noto-serif-kr-v20-korean_latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/noto-serif-kr-v20-korean_latin-regular.svg#NotoSerifKR') format('svg'); /* Legacy iOS */
+}
+/* cormorant-garamond-700 - latin */
+@font-face {
+	font-family: 'CormorantGaramond-Bold';
+	src: url('../font/cormorant-garamond-v16-latin-700.eot'); /* IE9 Compat Modes */
+	src: url('../font/cormorant-garamond-v16-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../font/cormorant-garamond-v16-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		url('../font/cormorant-garamond-v16-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		url('../font/cormorant-garamond-v16-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+		url('../font/cormorant-garamond-v16-latin-700.svg#CormorantGaramond') format('svg'); /* Legacy iOS */
+}
+
+/* ######### font-face(end) ######### */
+
+body { font-family: "NotoSansKR-Regular"; }
+
+div.inner_wrap { width: 100%; max-width: 1320px; margin: 0 auto; }
+
+
+/* ========== Mobile(start) ========== */
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	
+}
+/* ========== Mobile(end) ========== */
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!						!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!	    Portfolio		!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!						!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* ========== Tablet(start) ========== */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	
+	
+	
+	
+}
+/* ========== Tablet(end) ========== */
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!						!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!	    Portfolio		!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!						!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* ========== Desktop(start) ========== */
+@media screen and (min-width: 1025px) {
+
+	
+	
+	
+	
+}
+/* ========== Desktop(end) ========== */

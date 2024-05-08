@@ -355,6 +355,10 @@ window.addEventListener("load", function(){
 		popUpCloseBtn.addEventListener('click', function() {
 
 			popUp.style.display = 'none';
+            
+            artworks.forEach(artwork => {
+                artwork.style.display = 'none';
+            });
 
 			document.body.style.overflow = 'auto';
 		});
